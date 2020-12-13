@@ -1,0 +1,19 @@
+.button_dsgn{
+    border: 1px solid white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.button_dsgn:hover{
+    background-color: white;
+    color: blue;
+    
+}
+.page_links{
+    text-decoration: none;
+    color:white;
+}

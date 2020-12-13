@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand_logo{
+    max-width: 42px;
+}
+.container1{
+    /*background-color: aquamarine;*/
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.8)), url('images/banner_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    
+
+    
+}
+
+.main_image{
+    height: 300px;
+    width: 300px;
+}
+.image_nextPara{
+    padding: 20px;
+}
+.button_sec{
+    display: flex;
+    margin-top: 15px;
+}
+.button1{
+    margin-right: 10px;
+}
+#typed-strings{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container2{
+    background-color: rgba(228, 218, 218, 0.596);
+    /* margin-top: 30px; */
+
+    margin-bottom: 40px;
+    padding: 50px;
+}
+.container3{
+    position:relative;
+    overflow: hidden;
+    height: 330px;
+    margin-bottom: 30px;
+
+}
+
+.container3 video {
+    position:relative;
+    z-index:0;
+    
+}
+.para {
+    color: white;
+    text-align: center;
+    position:absolute;
+    top:30%;
+    left:30%;
+    z-index:1;
+
+}
+.social_btn{
+    padding-top: 30px;
+}
+.f_awsm{
+    padding-right: 10px;
+    
+}
+.card_desgn{
+    padding: 30px;
+}
+
+
+.container4{
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright_para{
+    color: white;
+}
